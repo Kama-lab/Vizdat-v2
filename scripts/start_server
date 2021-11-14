@@ -1,4 +1,2 @@
 #!/bin/bash
-cd /home/ec2-user/Vizdat-v2/
-source environment/bin/activate
 #supervisord -c supervisord.conf

@@ -1,2 +1,4 @@
 #!/bin/bash
-#supervisord -c supervisord.conf
+sudo python3 manage.py runserver
+cd frontend
+sudo npm run start

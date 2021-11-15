@@ -1,0 +1,5 @@
+#!/bin/bash
+sudo python3 manage.py makemigrations
+sudo python3 manage.py migrate
+cd frontend/
+sudo npm install

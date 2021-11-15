@@ -1,6 +1,6 @@
 #!/bin/bash
 cd /home/ec2-user/Vizdat-v2
-sudo pip3 install -r requirements.txt
-sudo apt install npm
-sudo npm install -g n
-sudo n stable
+pip3 install --user -r requirements.txt
+apt install --user npm
+npm install --user -g n
+n stable --user

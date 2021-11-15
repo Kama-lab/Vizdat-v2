@@ -1,4 +1,5 @@
 #!/bin/bash
-sudo python3 manage.py runserver
+cd /home/ec2-user/Vizdat-v2
+python3 manage.py runserver --user
 cd frontend
-sudo npm run start
+npm run start --user

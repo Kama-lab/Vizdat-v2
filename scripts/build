@@ -1,5 +1,6 @@
 #!/bin/bash
-sudo python3 manage.py makemigrations
-sudo python3 manage.py migrate
+cd /home/ec2-user/Vizdat-v2
+python3 manage.py makemigrations --user
+python3 manage.py migrate --user
 cd frontend/
-sudo npm install
+npm install --user

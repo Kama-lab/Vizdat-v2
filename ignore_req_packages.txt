@@ -1,3 +1,4 @@
 apturl==0.5.2
 Brlapi==0.7.0
 chrome-gnome-shell==0.0.0
+cliapp==1.20180812.1

@@ -1,6 +1,3 @@
 #!/bin/bash
 cd /home/ec2-user/Vizdat-v2
 pip install --user -r requirements.txt
-yum install --user npm
-npm install --user -g n
-n stable --user

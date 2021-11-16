@@ -3,3 +3,4 @@ push.sh
 connect-ssh.sh
 open-jenkins.sh
 keys.txt
+ignore_req_packages.txt
